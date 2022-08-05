@@ -45,7 +45,7 @@ var numbers = [5, 7, 8, 10, 45, 30];
 
 myNumbers(10);
  */
-
+/* 
 function myNumbers(num) {
   var total = 0;
   for (var i = 0; i < num.length; i++) {
@@ -57,4 +57,12 @@ function myNumbers(num) {
 var numbers = [5, 7, 8, 10, 45, 30];
 
 var sum = myNumbers(numbers);
+console.log(sum);
+ */
+
+var numbers = [5, 7, 8, 10, 45, 30];
+
+var sum = numbers.reduce((total, number) => {
+  return (total += number);
+}, 0);
 console.log(sum);
