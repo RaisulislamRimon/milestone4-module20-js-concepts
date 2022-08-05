@@ -1,3 +1,4 @@
+// get Even Numbers From Array
 function getEvenNumbersFromArray(numbers) {
   const EvenNumbers = [];
   for (let i = 0; i < numbers.length; i++) {
