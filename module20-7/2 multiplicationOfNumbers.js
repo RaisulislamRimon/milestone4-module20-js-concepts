@@ -1,5 +1,5 @@
 function multiplicationOfNumbers(nums) {
-  let result = 0;
+  let result = 1;
   for (let i = 1; i <= nums; i++) {
     // result += i;
     result *= i;
