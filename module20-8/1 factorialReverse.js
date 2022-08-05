@@ -38,13 +38,28 @@ function factorial(number) {
 let factorialResult = factorial(9);
 console.log(factorialResult);
  */
-
+/* 
 function factorial(number) {
   let num = 1;
   let result = 1;
   while (num <= 7) {
     result *= num;
     num++;
+  }
+  return result;
+}
+let factorialResult = factorial(9);
+console.log(factorialResult);
+ */
+
+// factorial using while loop in reverse way
+
+function factorial(number) {
+  let num = number;
+  let result = 1;
+  while (num >= 1) {
+    result *= num;
+    num--;
   }
   return result;
 }
