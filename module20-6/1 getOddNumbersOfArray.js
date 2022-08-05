@@ -99,6 +99,18 @@ function getOddNumbersOfArray(numbers) {
   return oddNumbers;
   // console.log(oddNumbers);
 }
+
+function myNumbersFunction(num) {
+  var total = 0;
+  for (var i = 0; i < num.length; i++) {
+    total = total + num[i];
+  }
+  return total;
+}
+
 const myNumbers = [12, 65, 45, 78, 32, 45, 91];
 var resultOfOddNumbers = getOddNumbersOfArray(myNumbers);
 console.log(resultOfOddNumbers);
+
+var sumOfAllOddNumbers = myNumbersFunction(resultOfOddNumbers);
+console.log(sumOfAllOddNumbers);
