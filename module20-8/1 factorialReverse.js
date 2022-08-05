@@ -13,7 +13,7 @@ function factorial(number) {
 let factorialResult = factorial(9);
 console.log(factorialResult);
  */
-
+/* 
 function factorial(number) {
   let result = 1;
   for (let i = number; i >= 1; i--) {
@@ -24,7 +24,7 @@ function factorial(number) {
 
 let factorialResult = factorial(9);
 console.log(factorialResult);
-
+ */
 /* 
 function factorial(number) {
   let result = 1;
@@ -38,3 +38,15 @@ function factorial(number) {
 let factorialResult = factorial(9);
 console.log(factorialResult);
  */
+
+function factorial(number) {
+  let num = 1;
+  let result = 1;
+  while (num <= 7) {
+    result *= num;
+    num++;
+  }
+  return result;
+}
+let factorialResult = factorial(9);
+console.log(factorialResult);
