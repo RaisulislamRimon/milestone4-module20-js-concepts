@@ -52,6 +52,8 @@ let factorialResult = factorial(9);
 console.log(factorialResult);
  */
 
+// 20-8 Factorial using a while loop or a decrementing loop
+
 // factorial using while loop in reverse way
 
 function factorial(number) {
